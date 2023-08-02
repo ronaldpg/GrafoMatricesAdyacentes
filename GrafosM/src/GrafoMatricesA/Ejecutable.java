@@ -1,10 +1,13 @@
 package GrafoMatricesA;
 import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 public class Ejecutable {
 
 	public static void main(String[] args) {
-		GrafoM info = new GrafoM();
-		info.pedirVerticesAlUsuario();
-		info.mostrarInformacionGrafo();
+	
+		Menu info = new Menu();
+		info.MenuOpciones();
+		
 	}
 }
